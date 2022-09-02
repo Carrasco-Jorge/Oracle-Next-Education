@@ -1,0 +1,122 @@
+body {
+  background-color: #E5E5E5;
+  margin-top: 30px;
+}
+
+main {
+    display: flex;
+    margin: 20px 30px 50px 140px;
+}
+
+textarea::placeholder {
+  color: #0A3871;
+  opacity: 0.7;
+}
+
+.input {
+  width: 60%;
+}
+
+.input-texto {
+  font-size: 30px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 380px;
+  color: #0A3871;
+}
+
+.info {
+  color: #495057;
+  font-size: 18px;
+}
+
+.info-img {
+  vertical-align: middle;
+}
+
+.container {
+  width: auto;
+}
+
+.botones {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: lighter;
+  height: 60px;
+  width: 40%;
+  border-radius: 20px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+.encriptar {
+  color: white;
+  background-color: #0A3871;
+  border: none;
+}
+
+.desencriptar {
+  color: #0A3871;
+  border: 1px solid #0A3871;
+  background-color: #D8DFE8;
+}
+
+.output {
+  background: white;
+  width:30%;
+  border-radius: 20px;
+}
+
+.mensaje {
+  margin: 20px auto;
+  margin-left: 18px;
+  width: 90%;
+  height: 230px;
+  font-size: 25px;
+  color: #495057;
+  border: none;
+  outline: none;
+  resize: none;
+
+  background-image: url("img/Muñeco.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.no-mensaje {
+  padding: 10px 40px;
+}
+
+.texto {
+  text-align: center;
+}
+
+.texto1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #343A40;
+}
+
+.texto2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #495057;
+}
+
+.copiar {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #0A3871;
+  border: 1px solid #0A3871;
+  background-color: #D8DFE8;
+}
